@@ -21,3 +21,7 @@
 go.work
 
 *.DS_Store
+
+# Jepsen/maelstrom
+maelstrom/
+store/
