@@ -1,0 +1,2 @@
+2023-05-29 21:14:39,667{GMT}	INFO	[jepsen test runner] jepsen.core: Command line:
+lein run test -w broadcast --bin /Users/adicardrz/go/bin/maelstrom-broadcast --node-count 1 --time-limit 20 --rate 10

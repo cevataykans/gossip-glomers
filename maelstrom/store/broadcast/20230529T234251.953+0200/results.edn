@@ -1,0 +1,273 @@
+{:perf {:latency-graph {:valid? true},
+        :rate-graph {:valid? true},
+        :valid? true},
+ :timeline {:valid? true},
+ :exceptions {:valid? true},
+ :stats {:valid? true,
+         :count 206,
+         :ok-count 206,
+         :fail-count 0,
+         :info-count 0,
+         :by-f {:broadcast {:valid? true,
+                            :count 111,
+                            :ok-count 111,
+                            :fail-count 0,
+                            :info-count 0},
+                :read {:valid? true,
+                       :count 95,
+                       :ok-count 95,
+                       :fail-count 0,
+                       :info-count 0}}},
+ :availability {:valid? true, :ok-fraction 1.0},
+ :net {:all {:send-count 2213,
+             :recv-count 1978,
+             :msg-count 2213,
+             :msgs-per-op 10.742719},
+       :clients {:send-count 432, :recv-count 432, :msg-count 432},
+       :servers {:send-count 1781,
+                 :recv-count 1546,
+                 :msg-count 1781,
+                 :msgs-per-op 8.645631},
+       :valid? true},
+ :workload {:worst-stale ({:element 0,
+                           :outcome :stable,
+                           :stable-latency 29877,
+                           :lost-latency nil,
+                           :known #jepsen.history.Op{:index 3,
+                                                     :time 34543638,
+                                                     :type :ok,
+                                                     :process 1,
+                                                     :f :add,
+                                                     :value 0},
+                           :last-absent #jepsen.history.Op{:index 408,
+                                                           :time 29912429793,
+                                                           :type :invoke,
+                                                           :process 4,
+                                                           :f :read,
+                                                           :value nil,
+                                                           :final? true}}
+                          {:element 2,
+                           :outcome :stable,
+                           :stable-latency 29478,
+                           :lost-latency nil,
+                           :known #jepsen.history.Op{:index 11,
+                                                     :time 434358111,
+                                                     :type :ok,
+                                                     :process 0,
+                                                     :f :add,
+                                                     :value 2},
+                           :last-absent #jepsen.history.Op{:index 408,
+                                                           :time 29912429793,
+                                                           :type :invoke,
+                                                           :process 4,
+                                                           :f :read,
+                                                           :value nil,
+                                                           :final? true}}
+                          {:element 3,
+                           :outcome :stable,
+                           :stable-latency 29417,
+                           :lost-latency nil,
+                           :known #jepsen.history.Op{:index 13,
+                                                     :time 495119550,
+                                                     :type :ok,
+                                                     :process 0,
+                                                     :f :add,
+                                                     :value 3},
+                           :last-absent #jepsen.history.Op{:index 408,
+                                                           :time 29912429793,
+                                                           :type :invoke,
+                                                           :process 4,
+                                                           :f :read,
+                                                           :value nil,
+                                                           :final? true}}
+                          {:element 4,
+                           :outcome :stable,
+                           :stable-latency 29356,
+                           :lost-latency nil,
+                           :known #jepsen.history.Op{:index 15,
+                                                     :time 555674139,
+                                                     :type :ok,
+                                                     :process 1,
+                                                     :f :add,
+                                                     :value 4},
+                           :last-absent #jepsen.history.Op{:index 408,
+                                                           :time 29912429793,
+                                                           :type :invoke,
+                                                           :process 4,
+                                                           :f :read,
+                                                           :value nil,
+                                                           :final? true}}
+                          {:element 5,
+                           :outcome :stable,
+                           :stable-latency 29176,
+                           :lost-latency nil,
+                           :known #jepsen.history.Op{:index 17,
+                                                     :time 735970834,
+                                                     :type :ok,
+                                                     :process 2,
+                                                     :f :add,
+                                                     :value 5},
+                           :last-absent #jepsen.history.Op{:index 408,
+                                                           :time 29912429793,
+                                                           :type :invoke,
+                                                           :process 4,
+                                                           :f :read,
+                                                           :value nil,
+                                                           :final? true}}
+                          {:element 6,
+                           :outcome :stable,
+                           :stable-latency 28780,
+                           :lost-latency nil,
+                           :known #jepsen.history.Op{:index 23,
+                                                     :time 1131492915,
+                                                     :type :ok,
+                                                     :process 0,
+                                                     :f :add,
+                                                     :value 6},
+                           :last-absent #jepsen.history.Op{:index 408,
+                                                           :time 29912429793,
+                                                           :type :invoke,
+                                                           :process 4,
+                                                           :f :read,
+                                                           :value nil,
+                                                           :final? true}}
+                          {:element 7,
+                           :outcome :stable,
+                           :stable-latency 28339,
+                           :lost-latency nil,
+                           :known #jepsen.history.Op{:index 31,
+                                                     :time 1572569577,
+                                                     :type :ok,
+                                                     :process 3,
+                                                     :f :add,
+                                                     :value 7},
+                           :last-absent #jepsen.history.Op{:index 408,
+                                                           :time 29912429793,
+                                                           :type :invoke,
+                                                           :process 4,
+                                                           :f :read,
+                                                           :value nil,
+                                                           :final? true}}
+                          {:element 9,
+                           :outcome :stable,
+                           :stable-latency 28220,
+                           :lost-latency nil,
+                           :known #jepsen.history.Op{:index 35,
+                                                     :time 1691790495,
+                                                     :type :ok,
+                                                     :process 0,
+                                                     :f :add,
+                                                     :value 9},
+                           :last-absent #jepsen.history.Op{:index 408,
+                                                           :time 29912429793,
+                                                           :type :invoke,
+                                                           :process 4,
+                                                           :f :read,
+                                                           :value nil,
+                                                           :final? true}}),
+            :duplicated-count 0,
+            :valid? false,
+            :lost-count 16,
+            :lost (1 8 16 19 24 39 52 55 63 71 77 79 85 90 92 97),
+            :stable-count 95,
+            :stale-count 85,
+            :stale (0
+                    2
+                    3
+                    4
+                    5
+                    6
+                    7
+                    9
+                    10
+                    11
+                    12
+                    13
+                    14
+                    15
+                    17
+                    18
+                    20
+                    21
+                    22
+                    23
+                    25
+                    26
+                    27
+                    28
+                    29
+                    30
+                    31
+                    32
+                    33
+                    34
+                    35
+                    36
+                    37
+                    38
+                    40
+                    41
+                    42
+                    43
+                    44
+                    45
+                    46
+                    47
+                    48
+                    49
+                    50
+                    51
+                    53
+                    54
+                    56
+                    57
+                    58
+                    59
+                    60
+                    61
+                    62
+                    64
+                    65
+                    66
+                    67
+                    68
+                    69
+                    70
+                    72
+                    73
+                    74
+                    75
+                    76
+                    78
+                    80
+                    81
+                    82
+                    83
+                    84
+                    86
+                    87
+                    88
+                    89
+                    91
+                    93
+                    94
+                    95
+                    96
+                    98
+                    99
+                    100),
+            :never-read-count 0,
+            :stable-latencies {0 0,
+                               0.5 21277,
+                               0.95 29176,
+                               0.99 29877,
+                               1 29877},
+            :attempt-count 111,
+            :lost-latencies {0 13202,
+                             0.5 20928,
+                             0.95 29576,
+                             0.99 29576,
+                             1 29576},
+            :never-read (),
+            :duplicated {}},
+ :valid? false}
